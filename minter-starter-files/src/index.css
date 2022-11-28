@@ -6,6 +6,10 @@ body {
   color: #254cdd;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,118,1) 45%, rgba(0,212,255,1) 100%); */
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(110,9,121,1) 51%, rgba(0,212,255,1) 100%);
 }
 
 code {
@@ -19,7 +23,7 @@ code {
   padding: 60px 100px;
   margin: 0 auto;
   text-align: left;
-
+  color: rgb(230, 230, 230);
 }
 
 input {
@@ -31,6 +35,9 @@ input {
   width: 100%;
   border-color: rgba(4, 4, 5, 0.1);
   line-height: 32px;
+
+  border-radius: 20px;
+  padding: 15px;
 }
 
 input:focus {
@@ -58,7 +65,9 @@ button {
 }
 
 #status {
-  color:red;
+  color: rgb(230, 230, 230);
+  margin-top: 40px;
+  font-size: 20px;
 }
 
 .uploadFile {
@@ -73,10 +82,27 @@ button {
   float:right;
   margin-bottom: 50px;
   line-height: 16px;
+
+  border-radius: 15px;
 }
 
 #mintButton {
   margin-top: 40px;
   background-color: #254cdd;
   color:white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 20px;
+}
+
+.heading{
+  margin-top: 70px;
 }
